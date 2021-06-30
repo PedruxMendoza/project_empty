@@ -1,4 +1,4 @@
 package com.informatica.eatandreview.db
 
-class SuscriberRepository {
+class ClienteDatabase {
 }

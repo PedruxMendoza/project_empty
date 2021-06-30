@@ -1,4 +1,4 @@
 package com.informatica.eatandreview.db
 
-interface SubscriberDAO {
+class RatingRepository {
 }

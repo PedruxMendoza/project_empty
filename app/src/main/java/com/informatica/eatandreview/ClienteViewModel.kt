@@ -1,4 +1,4 @@
 package com.informatica.eatandreview
 
-class SubscriberViewModelFactory {
+class ClienteViewModel {
 }
