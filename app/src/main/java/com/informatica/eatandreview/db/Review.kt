@@ -3,12 +3,11 @@ package com.informatica.eatandreview.db
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import androidx.room.Serializable
 
 @Entity(tableName = "review")
 data class Review (
 
-    @SerializedName("idreview")
+    @ColumnInfo(name = "idreview")
     @PrimaryKey(autoGenerate = true)
     val idReview : Int,
 

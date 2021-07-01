@@ -2,15 +2,16 @@ package com.informatica.eatandreview.db
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
+import androidx.room.ForeignKey
 import androidx.room.PrimaryKey
 
 @Entity(foreignKeys = arrayOf(ForeignKey(entity = Rating::class,
-        parentColumns = arrayOf("idrating"),
-        childColumns = arrayOf("idratingpla"),
-        onDelete = ForeignKey.CASCADE)))
+    parentColumns = arrayOf("idrating"),
+    childColumns = arrayOf("idratingpla"),
+    onDelete = ForeignKey.CASCADE)))
 data class Platillo (
 
-    @ColumnInfo("idplatillo")
+    @ColumnInfo(name = "idplatillo")
     @PrimaryKey(autoGenerate = true)
     val idPlatillo : Int,
 

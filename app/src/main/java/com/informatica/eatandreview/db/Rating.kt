@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "rating")
 data class Rating (
 
-    @ColumnInfo("idrating")
+    @ColumnInfo(name = "idrating")
     @PrimaryKey(autoGenerate = true)
     val idRating : Int,
 
