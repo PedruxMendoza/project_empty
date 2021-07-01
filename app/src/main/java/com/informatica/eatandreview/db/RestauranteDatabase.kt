@@ -1,11 +1,7 @@
 package com.informatica.eatandreview.db
 
 import androidx.room.Database
-import androidx.room.Volatile
 import androidx.room.RoomDatabase
-import androidx.room.Update
-import androidx.room.Delete
-import androidx.room.Query
 
 @Database(entities = [Restaurante::class], version = 1)
 abstract class RestauranteDatabase : RoomDatabase() {

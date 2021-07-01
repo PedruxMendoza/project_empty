@@ -1,5 +1,8 @@
 package com.informatica.eatandreview.db
 
+import androidx.room.Database
+import androidx.room.RoomDatabase
+
 @Database(entities = [Platillo::class], version = 1)
 abstract class PlatilloDatabase : RoomDatabase() {
 

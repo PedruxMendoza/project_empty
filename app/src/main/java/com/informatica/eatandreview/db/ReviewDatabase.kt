@@ -1,5 +1,8 @@
 package com.informatica.eatandreview.db
 
+import androidx.room.Database
+import androidx.room.RoomDatabase
+
 @Database(entities = [Review::class], version = 1)
 abstract class ReviewDatabase : RoomDatabase() {
 
