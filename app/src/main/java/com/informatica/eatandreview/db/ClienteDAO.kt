@@ -1,6 +1,10 @@
 package com.informatica.eatandreview.db
 
 import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.Update
+import androidx.room.Delete
+import androidx.room.Query
 
 @Dao
 interface ClienteDAO {
